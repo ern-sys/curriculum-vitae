@@ -12,7 +12,7 @@ const CV = {
     about:    "Infrastructure Engineer dan Linux System Administrator dengan lebih dari 3 tahun pengalaman mengelola infrastruktur jaringan dan server skala kampus. Spesialis dalam membangun lingkungan yang stabil, observable, dan aman menggunakan MikroTik, Cisco, dan Proxmox. Berpengalaman dalam optimasi segmentasi jaringan kompleks, deployment monitoring stack (Zabbix, Grafana), dan menjaga high availability untuk layanan kritikal. Passionate dalam Infrastructure as Code (IaC) dan network automation. Saat ini aktif mengembangkan keahlian di bidang DevOps dan Cybersecurity.",
     avatar:   "",
     location: "Sukabumi, West Java, Indonesia",
-    email:    "enggar.irawan98@gmail.com",
+    email:    "ienggar98@gmail.com",
     phone:    "",
     linkedin: "linkedin.com/in/enggari-349245402",
     github:   "",
