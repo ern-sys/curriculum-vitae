@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enggar Irawan — CV</title>
+  <meta name="description" content="CV Enggar Irawan — Infrastructure Engineer | Linux & Network Specialist" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,800&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <div class="cv-wrapper">
+
+    <!-- Top bar -->
+    <div class="topbar">
+      <span class="topbar-label">Bagikan link ini, atau simpan sebagai PDF:</span>
+      <button class="btn-print" onclick="window.print()">⬇ Download / Print PDF</button>
+    </div>
+
+    <div class="cv-content">
+
+      <!-- HEADER -->
+      <header id="cv-header"></header>
+
+      <!-- SKILLS -->
+      <section class="cv-section">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid" id="skills-content"></div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="cv-section">
+        <h2 class="section-title">Experience</h2>
+        <div class="timeline" id="experience-content"></div>
+      </section>
+
+      <!-- PROJECTS -->
+      <section class="cv-section">
+        <h2 class="section-title">Projects & Publications</h2>
+        <div class="projects-list" id="projects-content"></div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section class="cv-section">
+        <h2 class="section-title">Sertifikasi</h2>
+        <div class="certs-list" id="certifications-content"></div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="cv-section">
+        <h2 class="section-title">Pendidikan</h2>
+        <div class="timeline" id="education-content"></div>
+      </section>
+
+      <!-- Footer print -->
+      <footer id="cv-footer"></footer>
+
+    </div>
+  </div>
+
+  <script src="js/data.js"></script>
+  <script src="js/render.js"></script>
+
+</body>
+</html>
