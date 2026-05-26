@@ -164,6 +164,30 @@ const CV = {
       year:   "",
       badge:  "🏅",
     },
+    {
+      name:   "MTCNA",
+      issuer: "MikroTik",
+      year:   "",
+      badge:  "🏅",
+    },
+    {
+      name:   "FCF - Technical Introduction to CyberSecurity 1.0 Self-Paced",
+      issuer: "Fortinet Training Institute",
+      year:   "",
+      badge:  "🏅",
+    },
+    {
+      name:   "FCF - Introduction to The Threat Landscape 2.0 Self-Paced",
+      issuer: "Fortinet Training Institute",
+      year:   "",
+      badge:  "🏅",
+    },
+    {
+      name:   "FCP - FortiGate 7.4 Administrator Self-Paced",
+      issuer: "Fortinet Training Institute",
+      year:   "",
+      badge:  "🏅",
+    }
   ],
 
 };
